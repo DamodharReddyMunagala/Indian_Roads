@@ -1,0 +1,628 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Bad Roads in India</title>
+<meta name="keywords" content="Bad Roads in India, roads in India, Challenges faced by roads in India" />
+<meta name="description" content="India is home to several bad roads be it the metropolitans, the cities or the villages. Bad road conditions are nothing new to India and the problem is being addressed since the last 30 years" />
+<link rel="stylesheet" href="style/style.css" type="text/css" />
+<script type="text/javascript">
+function loadXMLDoc(showAll)
+{
+if (window.XMLHttpRequest)
+{// code for IE7+, Firefox, Chrome, Opera, Safari
+xmlhttp=new XMLHttpRequest();
+}
+else
+{// code for IE6, IE5
+xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+}
+xmlhttp.onreadystatechange=function()
+{
+if (xmlhttp.readyState==4 && xmlhttp.status==200)
+{
+document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
+}
+}
+if (showAll=="ALL")
+{
+xmlhttp.open("GET","get.php?q=noinsert",true);
+xmlhttp.send(null);
+}else{
+var source = document.getElementById('from').value;
+var destination = document.getElementById('to').value;
+var stat = document.getElementById('status').value;
+xmlhttp.open("GET","get.php?from="+source+"&to="+destination+"&status="+stat,true);
+xmlhttp.send(null);
+}
+
+}
+</script>
+
+<SCRIPT LANGUAGE="JavaScript"'>
+<!--
+function validateForm(){
+if(document.frm.from.selectedIndex==0)
+{
+alert("Please select an Source.");
+document.frm.from.focus();
+return false;
+}
+else if(document.frm.to.selectedIndex==0)
+{
+alert("Please select an Destination.");
+document.frm.from.focus();
+return false;
+}
+else if(document.frm.status.selectedIndex==0)
+{
+alert("Please select an Status of the Road.");
+document.frm.from.focus();
+return false;
+}
+loadXMLDoc();
+return false;
+}
+//-->
+</SCRIPT>
+
+<body>
+<table align="center" cellpadding="0" cellspacing="0" border="0" width="1003" style="border:1px solid #000;">
+<tr><td valign="top" colspan="2">
+<!-- Header Starts -->
+<table align="center" cellpadding="0" cellspacing="0" border="0" width="1003" bgcolor="#F2F1F1">
+<tr>
+<td valign="middle" width="300" style="padding-left:5px;">
+<span class="logo1">Bad Roads</span> <span class="logo2">in</span> <span class="logo3">India</span><span class="logo4"><sub>.com</sub></span>
+</td>
+<td valign="top" width="703" height="90"></td>
+</tr>
+</table>
+<!-- Header Ends -->
+</td></tr>
+
+<tr><td height="10"></td></tr>
+<!-- Middle Panel Starts -->
+<tr><td valign="top" colspan="2">
+<table align="center" cellpadding="0" cellspacing="0" border="0" width="1003">
+<tr>
+
+<!-- Content Left Starts-->
+<td valign="top" width="200">
+<table align="center" cellpadding="0" cellspacing="0" border="0" width="95%">
+<tr><td height="5"></td></tr>
+<tr><td class="relatedlink">Road NetWork Maps</td></tr>
+<tr><td height="5"></td></tr>
+<tr><td class="relatedlinks">
+<ul><li><a href="http://www.mapsofindia.com/maps/andhrapradesh/andhrapradeshroads.htm">Andhra Pradesh</a></li>
+<li><a href="http://www.mapsofindia.com/maps/arunachalpradesh/arunachalpradeshroads.htm">Arunachal Pradesh</a></li>
+<li><a href="http://www.mapsofindia.com/maps/assam/assamroads.htm">Assam</a></li>
+<li><a href="http://www.mapsofindia.com/maps/bihar/biharroads.htm" >Bihar</a></li>
+<li><a href="http://www.mapsofindia.com/maps/chhatisgarh/chhatisgarhroads.htm" >Chhattisgarh</a></li>
+<li><a href="http://www.mapsofindia.com/maps/delhi/delhiroads.htm" >Delhi</a></li>
+<li><a href="http://www.mapsofindia.com/maps/goa/goaroads.htm" >Goa</a></li>
+<li><a href="http://www.mapsofindia.com/maps/gujarat/gujaratroads.htm" >Gujarat</a></li>
+<li><a href="http://www.mapsofindia.com/maps/haryana/haryanaroads.htm" >Haryana</a></li>
+<li><a href="http://www.mapsofindia.com/maps/himachalpradesh/himachalpradeshroads.htm" >Himachal Pradesh</a></li>
+<li><a href="http://www.mapsofindia.com/maps/jammuandkashmir/jammuandkashmirroads.htm" >Jammu And Kashmir</a></li>
+<li><a href="http://www.mapsofindia.com/maps/jharkhand/jharkhandroads.htm" >Jharkhand</a></li>
+<li><a href="http://www.mapsofindia.com/maps/karnataka/karnatakaroads.htm" >Karnataka</a></li>
+<li><a href="http://www.mapsofindia.com/maps/kerala/keralaroads.htm" >Kerala</a></li>
+<li><a href="http://www.mapsofindia.com/maps/madhyapradesh/madhyapradeshroads.htm" >Madhya Pradesh</a></li>
+<li><a href="http://www.mapsofindia.com/maps/maharashtra/maharashtraroads.htm" >Maharashtra</a></li>
+<li><a href="http://www.mapsofindia.com/maps/meghalaya/meghalayaroads.htm" >Meghalaya</a></li>
+<li><a href="http://www.mapsofindia.com/maps/mizoram/mizoramroads.htm" >Mizoram</a></li>
+<li><a href="http://www.mapsofindia.com/maps/nagaland/nagalandroads.htm" >Nagaland</a></li>
+<li><a href="http://www.mapsofindia.com/maps/orissa/orissaroads.htm" >Orissa</a></li>
+<li><a href="http://www.mapsofindia.com/maps/punjab/punjabroads.htm" >Punjab</a></li>
+<li><a href="http://www.mapsofindia.com/maps/rajasthan/rajasthanroads.htm" >Rajasthan</a></li>
+<li><a href="http://www.mapsofindia.com/maps/sikkim/sikkimroads.htm" >Sikkim</a></li>
+<li><a href="http://www.mapsofindia.com/maps/tamilnadu/tamilnaduroads.htm" >Tamilnadu</a></li>
+<li><a href="http://www.mapsofindia.com/maps/tripura/tripuraroads.htm" >Tripura</a></li>
+<li><a href="http://www.mapsofindia.com/maps/uttarpradesh/uttar-pradesh-road.htm" >Uttar Pradesh</a></li>
+<li><a href="http://www.mapsofindia.com/maps/uttaranchal/uttaranchalroads.htm" >Uttaranchal</a></li>
+<li><a href="http://www.mapsofindia.com/maps/westbengal/westbengal-roads.htm" >West Bengal</a></li></ul>
+</td></tr>
+</table>
+</td>
+<!-- Content Left Ends-->
+
+<!-- Content Right Starts-->
+<td valign="top" width="803">
+<table align="center" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr><td align="center"><h1>Bad Roads in India</h1></td></tr>
+<tr><td height="10"></td></tr>
+
+<tr><td class="text">
+India is said to be the fastest developing countries today only after China.  Although India is doing exceptionally well in fields like education, industrialization and fashion there are still certain areas where the country is lagging behind. India's road network is gigantic and said to be only after the United States of America. But one of the striking underlying facts is the condition of the roads. Since roads indirectly contribute to the economic growth of the country it is extremely essential that the roads are well laid out and strong. India is home to several bad roads be it the metropolitans, the cities or the villages. Bad road conditions are nothing new to India and the problem is being addressed since the last 30 years. <br /><br />
+
+Since India is a developing nation there is a constant demand for good quality infrastructure, transportation and services. But since India is a huge country with quite a sizable population this problem still has not been addressed in totality. <br /><br />
+
+In order to improve the conditions of roads efforts began way back in the 1980s. It is during this time that roads were built to link major highways, to expand the width of existing roads and to construct important bridges.<br /><br />
+
+India has a total of about 2 million kilometers of roads out of which 960,000 kilometers are surfaced roads and about 1 million kilometers of roads in India are the poorly constructed ones. India is also home to Fifty-three National highways which carry about 40 percent of the total road traffic. Although the figures look pretty impressive but the underlying fact is that 25 percent of villages in India still have poor road links. <br /><br />
+
+The other problems faced by the Indian roads are; bad riding quality, poor geometrics, and insufficient pavement thickness. <br /><br />
+
+In India the responsibilities for road building and maintenance lies with the Central and state government.  The administration of the national highway system is vested with the Ministry of State for Surface Transport in India and other state roads are preserved by the state public works departments. As far as the minor roads in the country are concerned they are up kept by the various districts, municipalities, and villages. <br /><br />
+
+<h2>Challenges</h2><br /><br />
+
+The major challenges faced by the roads in India <br /><br />
+
+<h2>India has Poor Quality Roads and Highways</h2><br />
+
+Although India is home to over fifty national highways the sad state of affairs is that most national highways are just two lanes or even lesser. The design of the highways is a matter of great importance since only properly designed highways can withstand the pressure created by heavy vehicles. Apart from being narrow they are also highly congested since quite a large part of India's freight is carried on these highways. <br /><br />
+
+<h3>Rural Areas have Bad Roads</h3><br />
+India is home to quite a large rural population. Most of the rural areas in India do not have access to all weather roads and hence have a tough time during the monsoons. This problem is more significant in the northern and northeastern part of the country. The government in its 11th five year plan has allotted Rs 100,000 crore for the construction and maintenance of roads in villages.  <br /><br />
+
+<h3>Urban Areas are Severely Congested</h3><br />
+
+Traffic is one common problem in most of the metropolitans today. Cities like Mumbai, Delhi, and Kolkata are extremely congested during office hours. This is mainly because of industrialization and the sudden rise in vehicle ownership over the last few years. If India wants to be in tandem with the growing traffic, the government will need to construct around 15,000 km expressways in the next ten years<br /><br />
+
+Currently India's annual expenditure on the road sector is around Rs 20,000-30,000 crore . One of the major reasons behind this huge expenditure on maintaining roads is due to the problems of overloading and poor maintenance.  <br /><br />
+
+One of the major reasons for the damage of roads in India is overloading. It is said that about 70 percept of funds meant to be spent for the maintenance of roads actually goes behind paying laborers. 
+The magnanimity of the expenditure incurred in order to repair roads is alarming and hence the government is stressing on building large scale concrete roads instead of the common bituminous roads. Although building concrete roads is a little expensive but it is beneficial for the country in the long run. 
+India's road network is extensive and accounts to almost 3.3 million km which is only to the United States of America which has a total road network of 6.3 million km.<br /><br />
+
+
+<div id="myDiv"></div>
+<script type="text/javascript">
+<!--
+	loadXMLDoc('ALL');
+//-->
+</script><br /><br />
+
+
+<form name="frm" onSubmit="return validateForm()">
+<table align="left" cellpadding="3" cellspacing="0" border="0" width="300" style='border:1px solid #065D96;margin-top:10px;'>
+<tr><td colspan="2" class="badroad">Please Report Bad Roads</td></tr>
+<tr><td colspan="2" height="5"></td></tr>
+<tr>
+<td valign="top" width="100" style="color:#065D96;font-weight:bold;">From</td>
+<td valign="top" width="200">
+<select id="from">
+<option value='Select the Source'>Select the Source</option>
+<option value='Agra'> Agra</option>
+<option value='Ahmedabad'> Ahmedabad</option>
+<option value='Aizawal'> Aizawal </option>
+<option value='Ajmer'> Ajmer</option>
+<option value='Akola'> Akola</option>
+<option value='Aligarh'> Aligarh</option>
+<option value='Allahabad'> Allahabad</option>
+<option value='Ambala'> Ambala</option>
+<option value='Amritsar'> Amritsar</option>
+<option value='Asansol'> Asansol</option>
+<option value='Aurangabad'> Aurangabad</option>
+<option value='Bakhtiyarpur'> Bakhtiyarpur</option>
+<option value='Bangalore'> Bangalore</option>
+<option value='Barauni'> Barauni</option>
+<option value='Barddhaman'> Barddhaman</option>
+<option value='Bareilly'> Bareilly</option>
+<option value='Belgaum'> Belgaum</option>
+<option value='Bellary'> Bellary</option>
+<option value='Bhagalpur'> Bhagalpur</option>
+<option value='Bhavnagar'> Bhavnagar</option>
+<option value='Bhopal'> Bhopal</option>
+<option value='Bhubaneshwar'> Bhubaneshwar</option>
+<option value='Bikaner'> Bikaner</option>
+<option value='Bilaspur'> Bilaspur</option>
+<option value='Calcutta'> Calcutta</option>
+<option value='Chandigarh'> Chandigarh</option>
+<option value='Chennai'> Chennai</option>
+<option value='Chitradurga'> Chitradurga</option>
+<option value='Coimbatore'> Coimbatore</option>
+<option value='Cuttack'> Cuttack</option>
+<option value='Dehradun'> Dehradun</option>
+<option value='Delhi'> Delhi</option>
+<option value='Dhanbad'> Dhanbad</option>
+<option value='Dhule'> Dhule</option>
+<option value='Dibrugarh'> Dibrugarh</option>
+<option value='Dimapur'> Dimapur</option>
+<option value='Dindigul'> Dindigul</option>
+<option value='Durgapur'> Durgapur</option>
+<option value='Ganganagar'> Ganganagar</option>
+<option value='Gangtok'> Gangtok</option>
+<option value='Gaya'> Gaya</option>
+<option value='Ghaziabad'> Ghaziabad</option>
+<option value='Ghazipur'> Ghazipur</option>
+<option value='Gorakhpur'> Gorakhpur</option>
+<option value='Gulbarga'> Gulbarga</option>
+<option value='Guntur'> Guntur</option>
+<option value='Gurgaon'> Gurgaon</option>
+<option value='Guwahati'> Guwahati</option>
+<option value='Gwalior'> Gwalior</option>
+<option value='Haldia'> Haldia</option>
+<option value='Hassan'> Hassan</option>
+<option value='Hissar'> Hissar</option>
+<option value='Hubli'> Hubli</option>
+<option value='Hyderabad'> Hyderabad</option>
+<option value='Imphal'> Imphal</option>
+<option value='Indore'> Indore</option>
+<option value='Jabalpur'> Jabalpur</option>
+<option value='Jaipur'> Jaipur</option>
+<option value='Jaisalmer'> Jaisalmer</option>
+<option value='Jalandhar'> Jalandhar</option>
+<option value='Jammu'> Jammu</option>
+<option value='Jamnagar'> Jamnagar</option>
+<option value='Jamshedpur'> Jamshedpur</option>
+<option value='Jhansi'> Jhansi</option>
+<option value='Jodhpur'> Jodhpur</option>
+<option value='Jorhat'> Jorhat</option>
+<option value='Kakinada'> Kakinada</option>
+<option value='Kandla'> Kandla</option>
+<option value='Kanniyakumari'> Kanniyakumari</option>
+<option value='Kanpur'> Kanpur</option>
+<option value='Kochi'> Kochi</option>
+<option value='Kohima'> Kohima</option>
+<option value='Kolhapur'> Kolhapur</option>
+<option value='Kota'> Kota</option>
+<option value='Kozhikode'> Kozhikode</option>
+<option value='Krishnagiri'> Krishnagiri</option>
+<option value='Kurnool'> Kurnool</option>
+<option value='Lucknow'> Lucknow</option>
+<option value='Ludhiana'> Ludhiana</option>
+<option value='Madurai'> Madurai</option>
+<option value='Mangalore'> Mangalore</option>
+<option value='Meerut'> Meerut</option>
+<option value='Moradabad'> Moradabad</option>
+<option value='Motihari'> Motihari</option>
+<option value='Mumbanganagar'>Mumbanganagar</option>
+<option value='Gangtok'> Gangtok</option>
+<option value='Gaya'> Gaya</option>
+<option value='Ghaziabad'> Ghaziabad</option>
+<option value='Ghazipur'> Ghazipur</option>
+<option value='Gorakhpur'> Gorakhpur</option>
+<option value='Gulbarga'> Gulbarga</option>
+<option value='Guntur'> Guntur</option>
+<option value='Gurgaon'> Gurgaon</option>
+<option value='Guwahati'> Guwahati</option>
+<option value='Gwalior'> Gwalior</option>
+<option value='Haldia'> Haldia</option>
+<option value='Hassan'> Hassan</option>
+<option value='Hissar'> Hissar</option>
+<option value='Hubli'> Hubli</option>
+<option value='Hyderabad'> Hyderabad</option>
+<option value='Imphal'> Imphal</option>
+<option value='Indore'> Indore</option>
+<option value='Jabalpur'> Jabalpur</option>
+<option value='Jaipur'> Jaipur</option>
+<option value='Jaisalmer'> Jaisalmer</option>
+<option value='Jalandhar'> Jalandhar</option>
+<option value='Jammu'> Jammu</option>
+<option value='Jamnagar'> Jamnagar</option>
+<option value='Jamshedpur'> Jamshedpur</option>
+<option value='Jhansi'> Jhansi</option>
+<option value='Jodhpur'> Jodhpur</option>
+<option value='Jorhat'> Jorhat</option>
+<option value='Kakinada'> Kakinada</option>
+<option value='Kandla'> Kandla</option>
+<option value='Kanniyakumari'> Kanniyakumari</option>
+<option value='Kanpur'> Kanpur</option>
+<option value='Kochi'> Kochi</option>
+<option value='Kohima'> Kohima</option>
+<option value='Kolhapur'> Kolhapur</option>
+<option value='Kota'> Kota</option>
+<option value='Kozhikode'> Kozhikode</option>
+<option value='Krishnagiri'> Krishnagiri</option>
+<option value='Kurnool'> Kurnool</option>
+<option value='Lucknow'> Lucknow</option>
+<option value='Ludhiana'> Ludhiana</option>
+<option value='Madurai'> Madurai</option>
+<option value='Mangalore'> Mangalore</option>
+<option value='Meerut'> Meerut</option>
+<option value='Moradabad'> Moradabad</option>
+<option value='Motihari'> Motihari</option>
+<option value='Mumbai'> Mumbai</option>
+<option value='Muzaffarnagar'> Muzaffarnagar</option>
+<option value='Muzaffarpur'> Muzaffarpur</option>
+<option value='Mysore'> Mysore</option>
+<option value='Nagpur'> Nagpur</option>
+<option value='Nanded'> Nanded</option>
+<option value='Nashik'> Nashik</option>
+<option value='Nellore'> Nellore</option>
+<option value='Panaji'> Panaji</option>
+<option value='Paradwip'> Paradwip</option>
+<option value='Pathankot'> Pathankot</option>
+<option value='Patna'> Patna</option>
+<option value='Pondicherry'> Pondicherry</option>
+<option value='Porbandar'> Porbandar</option>
+<option value='Pune'> Pune</option>
+<option value='Purulia'> Purulia</option>
+<option value='Raipur'> Raipur</option>
+<option value='Rajkot'> Rajkot</option>
+<option value='Rameswaram'> Rameswaram</option>
+<option value='Ranchi'> Ranchi</option>
+<option value='Ranippettai'> Ranippettai</option>
+<option value='Raurkela'> Raurkela</option>
+<option value='Rohtak'> Rohtak</option>
+<option value='Sagar'> Sagar</option>
+<option value='Saharanpur'> Saharanpur</option>
+<option value='Salem'> Salem</option>
+<option value='Sambalpur'> Sambalpur</option>
+<option value='Shahjahanpur'> Shahjahanpur</option>
+<option value='Siliguri'> Siliguri</option>
+<option value='Shillong'> Shillong</option>
+<option value='Shimla'> Shimla</option>
+<option value='Shivpuri'> Shivpuri</option>
+<option value='Silchar'> Silchar</option>
+<option value='Solapur'> Solapur</option>
+<option value='Srinagar'> Srinagar</option>
+<option value='Surat'> Surat</option>
+<option value='Thane'> Thane</option>
+<option value='Thanjavur'> Thanjavur</option>
+<option value='Thiruvananthapuram'> Thiruvananthapuram</option>
+<option value='Thrissur'> Thrissur</option>
+<option value='Tiruchchirappalli'> Tiruchchirappalli</option>
+<option value='Tirunelveli'> Tirunelveli</option>
+<option value='Tirupati'> Tirupati</option>
+<option value='Tuticorin'> Tuticorin</option>
+<option value='Udaipur'> Udaipur</option>
+<option value='Ujjain'> Ujjain</option>
+<option value='Ulhasnagar'> Ulhasnagar</option>
+<option value='Vadodara'> Vadodara</option>
+<option value='Varanasi'> Varanasi</option>
+<option value='Vijayawada'> Vijayawada</option>
+<option value='Vishakhapatnam'> Vishakhapatnam</option>
+<option value='Warangal'> Warangal</option>
+<option value='Chennai'>Chennai</option>
+</select>
+</td>
+</tr>
+<tr>
+<td valign="top" width="100"  style="color:#065D96;font-weight:bold;">To</td>
+<td valign="top" width="200">
+<select id="to">
+<option value='Select the Destination'>Select the Destination</option>
+<option value='Agra'> Agra</option>
+<option value='Ahmedabad'> Ahmedabad</option>
+<option value='Aizawal'> Aizawal </option>
+<option value='Ajmer'> Ajmer</option>
+<option value='Akola'> Akola</option>
+<option value='Aligarh'> Aligarh</option>
+<option value='Allahabad'> Allahabad</option>
+<option value='Ambala'> Ambala</option>
+<option value='Amritsar'> Amritsar</option>
+<option value='Asansol'> Asansol</option>
+<option value='Aurangabad'> Aurangabad</option>
+<option value='Bakhtiyarpur'> Bakhtiyarpur</option>
+<option value='Bangalore'> Bangalore</option>
+<option value='Barauni'> Barauni</option>
+<option value='Barddhaman'> Barddhaman</option>
+<option value='Bareilly'> Bareilly</option>
+<option value='Belgaum'> Belgaum</option>
+<option value='Bellary'> Bellary</option>
+<option value='Bhagalpur'> Bhagalpur</option>
+<option value='Bhavnagar'> Bhavnagar</option>
+<option value='Bhopal'> Bhopal</option>
+<option value='Bhubaneshwar'> Bhubaneshwar</option>
+<option value='Bikaner'> Bikaner</option>
+<option value='Bilaspur'> Bilaspur</option>
+<option value='Calcutta'> Calcutta</option>
+<option value='Chandigarh'> Chandigarh</option>
+<option value='Chennai'> Chennai</option>
+<option value='Chitradurga'> Chitradurga</option>
+<option value='Coimbatore'> Coimbatore</option>
+<option value='Cuttack'> Cuttack</option>
+<option value='Dehradun'> Dehradun</option>
+<option value='Delhi'> Delhi</option>
+<option value='Dhanbad'> Dhanbad</option>
+<option value='Dhule'> Dhule</option>
+<option value='Dibrugarh'> Dibrugarh</option>
+<option value='Dimapur'> Dimapur</option>
+<option value='Dindigul'> Dindigul</option>
+<option value='Durgapur'> Durgapur</option>
+<option value='Ganganagar'> Ganganagar</option>
+<option value='Gangtok'> Gangtok</option>
+<option value='Gaya'> Gaya</option>
+<option value='Ghaziabad'> Ghaziabad</option>
+<option value='Ghazipur'> Ghazipur</option>
+<option value='Gorakhpur'> Gorakhpur</option>
+<option value='Gulbarga'> Gulbarga</option>
+<option value='Guntur'> Guntur</option>
+<option value='Gurgaon'> Gurgaon</option>
+<option value='Guwahati'> Guwahati</option>
+<option value='Gwalior'> Gwalior</option>
+<option value='Haldia'> Haldia</option>
+<option value='Hassan'> Hassan</option>
+<option value='Hissar'> Hissar</option>
+<option value='Hubli'> Hubli</option>
+<option value='Hyderabad'> Hyderabad</option>
+<option value='Imphal'> Imphal</option>
+<option value='Indore'> Indore</option>
+<option value='Jabalpur'> Jabalpur</option>
+<option value='Jaipur'> Jaipur</option>
+<option value='Jaisalmer'> Jaisalmer</option>
+<option value='Jalandhar'> Jalandhar</option>
+<option value='Jammu'> Jammu</option>
+<option value='Jamnagar'> Jamnagar</option>
+<option value='Jamshedpur'> Jamshedpur</option>
+<option value='Jhansi'> Jhansi</option>
+<option value='Jodhpur'> Jodhpur</option>
+<option value='Jorhat'> Jorhat</option>
+<option value='Kakinada'> Kakinada</option>
+<option value='Kandla'> Kandla</option>
+<option value='Kanniyakumari'> Kanniyakumari</option>
+<option value='Kanpur'> Kanpur</option>
+<option value='Kochi'> Kochi</option>
+<option value='Kohima'> Kohima</option>
+<option value='Kolhapur'> Kolhapur</option>
+<option value='Kota'> Kota</option>
+<option value='Kozhikode'> Kozhikode</option>
+<option value='Krishnagiri'> Krishnagiri</option>
+<option value='Kurnool'> Kurnool</option>
+<option value='Lucknow'> Lucknow</option>
+<option value='Ludhiana'> Ludhiana</option>
+<option value='Madurai'> Madurai</option>
+<option value='Mangalore'> Mangalore</option>
+<option value='Meerut'> Meerut</option>
+<option value='Moradabad'> Moradabad</option>
+<option value='Motihari'> Motihari</option>
+<option value='Mumbanganagar'>Mumbanganagar</option>
+<option value='Gangtok'> Gangtok</option>
+<option value='Gaya'> Gaya</option>
+<option value='Ghaziabad'> Ghaziabad</option>
+<option value='Ghazipur'> Ghazipur</option>
+<option value='Gorakhpur'> Gorakhpur</option>
+<option value='Gulbarga'> Gulbarga</option>
+<option value='Guntur'> Guntur</option>
+<option value='Gurgaon'> Gurgaon</option>
+<option value='Guwahati'> Guwahati</option>
+<option value='Gwalior'> Gwalior</option>
+<option value='Haldia'> Haldia</option>
+<option value='Hassan'> Hassan</option>
+<option value='Hissar'> Hissar</option>
+<option value='Hubli'> Hubli</option>
+<option value='Hyderabad'> Hyderabad</option>
+<option value='Imphal'> Imphal</option>
+<option value='Indore'> Indore</option>
+<option value='Jabalpur'> Jabalpur</option>
+<option value='Jaipur'> Jaipur</option>
+<option value='Jaisalmer'> Jaisalmer</option>
+<option value='Jalandhar'> Jalandhar</option>
+<option value='Jammu'> Jammu</option>
+<option value='Jamnagar'> Jamnagar</option>
+<option value='Jamshedpur'> Jamshedpur</option>
+<option value='Jhansi'> Jhansi</option>
+<option value='Jodhpur'> Jodhpur</option>
+<option value='Jorhat'> Jorhat</option>
+<option value='Kakinada'> Kakinada</option>
+<option value='Kandla'> Kandla</option>
+<option value='Kanniyakumari'> Kanniyakumari</option>
+<option value='Kanpur'> Kanpur</option>
+<option value='Kochi'> Kochi</option>
+<option value='Kohima'> Kohima</option>
+<option value='Kolhapur'> Kolhapur</option>
+<option value='Kota'> Kota</option>
+<option value='Kozhikode'> Kozhikode</option>
+<option value='Krishnagiri'> Krishnagiri</option>
+<option value='Kurnool'> Kurnool</option>
+<option value='Lucknow'> Lucknow</option>
+<option value='Ludhiana'> Ludhiana</option>
+<option value='Madurai'> Madurai</option>
+<option value='Mangalore'> Mangalore</option>
+<option value='Meerut'> Meerut</option>
+<option value='Moradabad'> Moradabad</option>
+<option value='Motihari'> Motihari</option>
+<option value='Mumbai'> Mumbai</option>
+<option value='Muzaffarnagar'> Muzaffarnagar</option>
+<option value='Muzaffarpur'> Muzaffarpur</option>
+<option value='Mysore'> Mysore</option>
+<option value='Nagpur'> Nagpur</option>
+<option value='Nanded'> Nanded</option>
+<option value='Nashik'> Nashik</option>
+<option value='Nellore'> Nellore</option>
+<option value='Panaji'> Panaji</option>
+<option value='Paradwip'> Paradwip</option>
+<option value='Pathankot'> Pathankot</option>
+<option value='Patna'> Patna</option>
+<option value='Pondicherry'> Pondicherry</option>
+<option value='Porbandar'> Porbandar</option>
+<option value='Pune'> Pune</option>
+<option value='Purulia'> Purulia</option>
+<option value='Raipur'> Raipur</option>
+<option value='Rajkot'> Rajkot</option>
+<option value='Rameswaram'> Rameswaram</option>
+<option value='Ranchi'> Ranchi</option>
+<option value='Ranippettai'> Ranippettai</option>
+<option value='Raurkela'> Raurkela</option>
+<option value='Rohtak'> Rohtak</option>
+<option value='Sagar'> Sagar</option>
+<option value='Saharanpur'> Saharanpur</option>
+<option value='Salem'> Salem</option>
+<option value='Sambalpur'> Sambalpur</option>
+<option value='Shahjahanpur'> Shahjahanpur</option>
+<option value='Siliguri'> Siliguri</option>
+<option value='Shillong'> Shillong</option>
+<option value='Shimla'> Shimla</option>
+<option value='Shivpuri'> Shivpuri</option>
+<option value='Silchar'> Silchar</option>
+<option value='Solapur'> Solapur</option>
+<option value='Srinagar'> Srinagar</option>
+<option value='Surat'> Surat</option>
+<option value='Thane'> Thane</option>
+<option value='Thanjavur'> Thanjavur</option>
+<option value='Thiruvananthapuram'> Thiruvananthapuram</option>
+<option value='Thrissur'> Thrissur</option>
+<option value='Tiruchchirappalli'> Tiruchchirappalli</option>
+<option value='Tirunelveli'> Tirunelveli</option>
+<option value='Tirupati'> Tirupati</option>
+<option value='Tuticorin'> Tuticorin</option>
+<option value='Udaipur'> Udaipur</option>
+<option value='Ujjain'> Ujjain</option>
+<option value='Ulhasnagar'> Ulhasnagar</option>
+<option value='Vadodara'> Vadodara</option>
+<option value='Varanasi'> Varanasi</option>
+<option value='Vijayawada'> Vijayawada</option>
+<option value='Vishakhapatnam'> Vishakhapatnam</option>
+<option value='Warangal'> Warangal</option>
+<option value='Chennai'>Chennai</option>
+</select>
+</td>
+</tr>
+<tr>
+<td valign="top" width="100" style="color:#065D96;font-weight:bold;">Status</td>
+<td valign="top" width="200">
+<select id="status">
+<option value='Very Bad Road'>Select the Condition of the Road</option>
+<option value='Very Bad Road'>Very Bad Road</option>
+<option value='Bad Road But Car can Go'>Bad Road But Car can Go</option>
+<option value='Bad Road Only Two Wheeler can Go'>Bad Road Only Two Wheeler can Go</option>
+<option value='Bad Road All Dogged Up'>Bad Road All Dogged Up</option>
+</select>
+</td>
+</tr>
+<tr>
+<td valign="top" width="200"><input type="submit" value="Submit"  onsubmit="loadXMLDoc()"></td>
+<td valign="top" width="200"><input type="reset" value="Reset"></td>
+</tr>
+</table>
+</form>
+
+
+
+</td></tr>
+</table>
+
+
+
+
+
+
+
+</td>
+<!-- Content Right Ends-->
+
+</tr>
+</table>
+</td></tr>
+
+<!-- Middle Panel Ends -->
+
+<tr><td height="10"></td></tr>
+
+
+<tr><td colspan="2">
+<!-- Footer Starts Here -->
+<table align="center" cellpadding="0" cellspacing="0" border="0" width="1003" bgcolor="#F3F3F3">
+<tr>
+<td valign="top" width="68"><a href="http://www.infobase.in/"><img src="images/compare.png" width="65" height="94" alt="Compare Infobase Ltd.," border="0"/></a></td>
+
+<td valign="middle" width="935">
+<table align="center" width="930" cellspacing="0" cellpadding="0" border="0">
+<tr><td class="footertext">
+Compare Infobase Limited (An ISO 9001:2000 Certified Company)<br />
+Copyright 1999 – 09 Mapsofindia.com<br />
+ALL RIGHTS RESERVED<br />
+<a href="mailto:solutions@mapsofindia.com">solutions@mapsofindia.com</a>
+</td></tr>
+</table>
+</td>
+</tr>
+</table>
+<!-- Footer Ends Here -->
+</td></tr>
+</table>
+</body>
+</html>
